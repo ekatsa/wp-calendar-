@@ -1,0 +1,55 @@
+.cn-calendar-container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.cn-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cn-calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cn-calendar th, .cn-calendar td {
+    border: 1px solid #ccc;
+    width: 14.28%;
+    height: 100px;
+    vertical-align: top;
+    padding: 5px;
+    position: relative;
+}
+
+.date-number {
+    font-weight: bold;
+}
+
+.note-preview {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    height: 60px;
+    overflow: hidden;
+}
+
+#cn-note-modal {
+    position: fixed;
+    top:0; left:0; right:0; bottom:0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.cn-modal-content {
+    background: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    position: relative;
+}
