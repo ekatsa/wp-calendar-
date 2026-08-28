@@ -1,0 +1,9 @@
+Usage:
+
+Activate the plugin.
+Insert [calendar_notes] shortcode into any post or page.
+The calendar with note-taking will appear.
+
+It is needed to clear cache, if it does not work.
+
+Make with DeepAI, it a FREE plugin.
